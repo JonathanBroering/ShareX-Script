@@ -6,16 +6,17 @@ This script let you upload files to your (ShareX) Server with PHP.
 ```
 1. Download and unzip the files to the root Directory of the Server.
 2. Edit the config.php to your needs.
-3. Create the Folder for the uploads (with your custom config)
+3. Create the Folder for the uploads (with your custom config, maybe you have to adjust the permissions for the folder)
 ```
 
 #### ShareX Part:
 ```
-1. Open Target -> Targetsettings and scroll down
-2. Go to custom uploaders and add a new
-3. Leave the settings and add Request URL: YOUROWNSERVER COM/upload.php
-4. File form name: "file" (without quotation marks)
-5. Arguments:
+1. Open Destinations -> Custom uploader settings...
+2. Add a new Uploader
+3. Select on the Destination type settings: Image uploader, Text uploader, File uploader
+4. URL: thats the link to your server & the upload.php (e.g. https://yourdomain.com/upload.php)
+5. "File form name:" = "file" (without quotation marks)
+6. Body:
     - key -> Yoursecretkey from the Config
     - name -> the name of the file if you uploaded it (use %rx%rx%rx%rx%rx for 5 random characters and numbers)
 ```
