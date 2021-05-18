@@ -20,8 +20,4 @@ This script let you upload files to your (ShareX) Server with PHP.
     - key -> Yoursecretkey from the Config
     - name -> the name of the file if you uploaded it (use %rx%rx%rx%rx%rx for 5 random characters and numbers)
 ```
-Now you can test your settings, that should be it. Have fun.
-
-If there is any Probleme feel free to message me:
-Twitter: JonathanDOTexe
-Mail:    Get it from JonathanB.de
+Now you can test upload a file to verify the script is working.
